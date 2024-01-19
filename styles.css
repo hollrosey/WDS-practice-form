@@ -1,0 +1,83 @@
+body {
+    font-family: Arial;
+    font-size: 16px;
+    width: 100%;
+    height: 160vh;
+    margin: 0;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/72/959/desktop-wallpaper-cute-animal-crossing-uploaded-by-jennnnnnnni-acnh-aesthetic.jpg);
+    color: #E2E3D5
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    text-align: middle;
+    background-color: #026773D8
+}
+
+h1,
+p {
+    margin: 1em auto;
+    text-align: center;
+    background-color: #026773D8;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #BABC9B;
+    border-color: #E2E3D5;
+    min-width: 170px;
+}
+
+fieldset {
+    border: none;
+    padding: 1rem 0;
+    margin-right: 10px;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}    

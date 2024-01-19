@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Resident of Dandooti Survey</h1>
+    <p id="description">Thank you for taking the time to help us improve our island.</p>
+    <div>
+        <form id="survey-form">
+            <fieldset>
+                <label for="name" id="name-label">
+                    Full Name <input id="name" name="full-name" type="text" required placeholder="Enter your name" />
+                </label>
+                <label for="email" id="email-label">
+                    Email <input id="email" name="email" type="email" placeholder="Enter your Email" required />
+                </label>
+                <label for="number" id="number-label"> Age (optional)
+                    <input id="number" name="age" type="number" min="0" max="120" placeholder="..." />
+                </label>
+                <label for="resident"> How long have you lived in Dandooti?
+                    <select id="dropdown" name="resident" type="text" required />
+                    <option value="">(select one)</option>
+                    <option value="less">Less than a year</option>
+                    <option value="1">1 year</option>
+                    <option value="2">2 years</option>
+                    <option value="3">3 years</option>
+                    <option value="4">4 years</option>
+                    <option value="5">5 years</option>
+                    <option value="6">6 years</option>
+                    <option value="7">7 years</option>
+                    <option value="8">8 years</option>
+                    <option value="9">9 years</option>
+                    <option value="10">10 years or more</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="activities" class="inline">Which of the following recreational activities do you enjoy in
+                    Dandooti?
+                </label>
+                <label><input id="checkbox" name="activities" type="checkbox" class="inline" value="fish" />
+                    Fishing</label>
+                <label><input id="checkbox" name="activities" type="checkbox" class="inline" value="bugs" /> Catching
+                    bugs</label>
+                <label><input id="checkbox" name="activities" type="checkbox" class="inline" value="fossils" /> Digging
+                    up fossils</label>
+                <label><input id="checkbox" name="activities" type="checkbox" class="inline" value="diving" /> Deep-sea
+                    diving</label>
+                <label><input id="checkbox" name="activities" type="checkbox" class="inline" value="shopping" />
+                    Shopping</label>
+            </fieldset>
+            <fieldset>
+                <label for="neighbours">Thinking about your neighbours, how many of them do you talk to on a daily
+                    basis?</label>
+                <label for="neighbours"><input id="neighbours" type="radio" name="neighbours" class="inline"
+                        value="1-2" />1-2
+                    <label for="neighbours"><input id="neighbours" type="radio" name="neighbours" class="inline"
+                            value="3-4" />3-4
+                        <label for="neighbours"><input id="neighbours" type="radio" name="neighbours" class="inline"
+                                value="5-6" />5-6
+                            <label for="neighbours"><input id="neighbours" type="radio" name="neighbours" class="inline"
+                                    value="7-8" />7-8
+                                <label for="neighbours"><input id="neighbours" type="radio" name="neighbours"
+                                        class="inline" value="9-10" />9-10
+            </fieldset>
+            <fieldset>
+                <label for=“facilities” class="inline">Which of the following facilities do you frequently visit in
+                    Dandooti?
+                </label>
+                <label><input id="checkbox" name=“facilities” type="checkbox" class="inline" value=“cafe” /> The Roost
+                    Cafe</label>
+                <label><input id="checkbox" name="facilities" type="checkbox" class="inline" value=“museum” /> The
+                    Museum</label>
+                <label><input id="checkbox" name="facilities" type="checkbox" class="inline" value=“ables” /> The Able
+                    Sisters</label>
+                <label><input id="checkbox" name="facilities" type="checkbox" class="inline" value=“nooks” /> Nook’s
+                    Cranny</label>
+                <label><input id="checkbox" name="facilities" type="checkbox" class="inline" value=“kappn” /> Kapp’n’s
+                    Boat Tours</label>
+                <label><input id="checkbox" name="facilities" type="checkbox" class="inline" value=“harvs-island” />
+                    Harv’s Island</label>
+                <label><input id="checkbox" name="facilities" type="checkbox" class="inline" value=“postcard” /> The
+                    Airport Postcard Stand</label>
+            </fieldset>
+            <fieldset class="comments">
+                <label for="comments"> Please feel free to leave any comments or suggestions below:
+                    <textarea id="comments" name="comments" rows="3" cols="30"
+                        placeholder="Enter your comment here..."></textarea>
+                </label>
+                <fieldset><label for="newsletter">We are creating a newsletter! Please submit any images from our island
+                        here: <input id="profile-picture" type="file" name="file" /></label></fieldset>
+                <input type="submit" value="Submit" id="submit" />
+            </fieldset>
+    </div>
+    </form>
+</body>
+
+</html>
